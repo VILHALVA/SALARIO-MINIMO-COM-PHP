@@ -13,11 +13,18 @@ Este aplicativo calcula quantos salários mínimos uma pessoa recebe com base no
 - Se nenhum valor for inserido, o aplicativo assume o valor padrão do salário mínimo (R$ 1320,00).
 
 ## EXECUTANDO O PROJETO:
-1. **Executando o Aplicativo:**
+1. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.php`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.php).
 
-2. **Interagir com o Projeto:**
+2. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080](http://localhost:8080).
+
+3. **Interagir com o Projeto:**
    1. **Abrir a Página Inicial**
       - Ao abrir a página inicial do aplicativo, você verá um formulário com um campo de entrada para inserir o valor do seu salário.
 
